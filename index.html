@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Furniro</title>
+    <link rel="icon" href="Images/Logo.png">
     <style>
             body {
                 font-family: Poppins;
@@ -27,7 +28,7 @@
             </div>
             <div class="flex flex-row text-lg">
                 <h1 class="pr-15">Home</h1>
-                <h1 class="pr-15">Shop</h1>
+                <a href="shop.html"><h1 class="pr-15">Shop</h1></a>
                 <h1 class="pr-15">About</h1>
                 <h1>Contact</h1>
             </div>
@@ -42,7 +43,7 @@
         <div>
             <img src="Images/Hero.png" alt="" class="w-1000">
         </div>
-        <div class="bg-orange-100 w-170 h-115 absolute left-195 top-68 p-10">
+        <div class="bg-orange-100 w-170 h-115 absolute left-195 lg:left-243 lg:top-107 top-68 p-10">
             <h1 class="font-semibold text-lg tracking-wider text-neutral-800 pb-3">New Arrivals</h1>
             <h1 class="text-6xl w-120 font-bold text-yellow-600 pb-5">Discover Our New Collection</h1>
             <h1 class="text-neutral-800 w-120 text- font-semibold pb-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</h1>
@@ -131,10 +132,10 @@
             </div>        
         </div>
         <div class="flex justify-center pt-10">
-            <button class="h-12 w-60 border-solid border-yellow-600 border-1 text-yellow-600 font-semibold">Show more</button>
+            <a href="shop.html"><button class="h-12 w-60 border-solid border-yellow-600 border-1 text-yellow-600 font-semibold">Show more</button></a>
         </div>
     </div>
-        <div class="h-180 max-w bg-yellow-50 mt-20">
+        <div class="h-180 max-w bg-[#FCF8F3] mt-20">
             <div class="pt-80 pl-30 w-200">
                 <h1 class="text-5xl font-bold text-neutral-700">50+ Beautiful rooms inspiration</h1>
                 <div class="w-100 pt-2 ">
@@ -166,25 +167,54 @@
             <h1 class="text-4xl font-bold flex justify-center">#FurniroFurniture</h1>
         </div>
         <div class="flex flex-row">
-            <img src="Images/1.png" alt="" class="pr-8 h-105 -mt-15"> 
-            <img src="Images/2.png" alt="" class="pr-8 h-90 pt-10">
-            <img src="Images/3.png" alt="" class="pr-8 mt-30 ">
-            <img src="Images/4.png" alt="" class="pr-8 h-100 mt-20">
-            <img src="Images/5.png" alt="" class="h-125 -mt-5">
+            <img src="Images/1.png" alt="" class="pr-8 h-105 lg:h-130 lg:-mt-20 -mt-15"> 
+            <img src="Images/2.png" alt="" class="pr-8 h-90 lg:h-110 pt-10">
+            <img src="Images/3.png" alt="" class="pr-8 mt-30 lg:h-125">
+            <img src="Images/4.png" alt="" class="pr-8 h-100 lg:h-115 lg:mt-15 mt-20">
+            <img src="Images/5.png" alt="" class="h-125 lg:h-145 lg:-mt-15 -mt-5">
         </div>
         <div class="flex flex-row">
-            <img src="Images/6.png" alt="" class="pr-8 -mt-30">
-            <img src="Images/7.png" alt="" class="-mt-30 h-64">
+            <img src="Images/6.png" alt="" class="pr-8 -mt-30 lg:h-100 lg:-mt-36">
+            <img src="Images/7.png" alt="" class="-mt-30 h-64 lg:h-80 lg:-mt-36">
             <div class="flex flex-row">
-                <img src="Images/8.png" alt="" class="ml-90 mr-8 h-70" >
-                <img src="Images/9.png" alt="" class="h-60 ">
+                <img src="Images/8.png" alt="" class="ml-90 mr-8 h-70 lg:h-80 lg:ml-110 lg:-mt-17" >
+                <img src="Images/9.png" alt="" class="h-60 lg:h-70 lg:-mt-17">
             </div>    
         </div>
-        <footer>
-            <div>
-                <h1>Funiro.</h1>
-                <h1>400 University Drive Suite 200 Coral Gables,</h1>
+        <footer class="mt-20 border-t-1">
+            <div class="pl-50 pr-50 flex flex-row pt-20">
+                <div class="">
+                    <h1 class="font-bold text-2xl pb-10">Funiro.</h1>
+                    <div class="w-80">
+                        <h1 class="text-lg text-[#9F9F9F]">400 University Drive Suite 200 Coral Gables,</h1>
+                    </div>
+                    <h1 class="text-lg text-[#9F9F9F]">FL 33134 USA</h1>
+                </div>
+                <div class="ml-50">
+                    <h1 class="text-lg text-[#9F9F9F] pb-10">Links</h1>
+                    <h1 class="text-lg pb-10">Home</h1>
+                    <a href="shop.html"><h1 class="text-lg pb-10">Shop</h1></a>
+                    <h1 class="text-lg pb-10">About</h1>
+                    <h1 class="text-lg">Contact</h1>
+                </div>
+                <div class="ml-50 text-lg">
+                    <h1 class="text-[#9F9F9F] pb-10">Help</h1>
+                    <h1 class="pb-10">Payment Option</h1>
+                    <h1 class="pb-10">Returns</h1>
+                    <h1 class="">Privacy Policies</h1>
+                </div>
+                <div class="ml-50">
+                    <h1 class="text-lg text-[#9F9F9F]">Newsletter</h1>
+                    <div class="mt-10">
+                        <input type="text" class="border-b-1 w-60 border-solid" placeholder="Enter Your Email Address">
+                        <button class="border-b-1 ml-2">SUBSCIRBE</button>
+                    </div>
+                </div>
             </div>
+            <div class="flex justify-center mt-10">
+                <hr class="w-400 mb-10">
+            </div>
+            <h1 class="pl-40 pb-10">2023 furino. All rights reserved</h1>
         </footer>    
 </body>
 </html>
